@@ -1,3 +1,5 @@
+Sandbox Check
+
 # Simple Design System (alpha)
 
 Using Figma's [Code Connect](https://github.com/figma/code-connect).

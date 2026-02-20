@@ -18,8 +18,11 @@ figma.connect(
       label: figma.string("Label"),
       description: figma.string("Description"),
       placeholder: figma.string("Label"),
-      isDisabled: figma.enum("State", {
-        Disabled: true,
+      state: figma.enum("State", {
+        Default: "default",
+        Error: "error",
+        Disabled: "disabled",
+        
       }),
       value: figma.string("Value"),
       defaultValue: figma.string("Value"),
@@ -27,6 +30,12 @@ figma.connect(
       hidden: figma.enum("State", {
         Disabled: true,
       }),
+
+      hasError: figma.boolean("Has Error"),
+      error: figma.string("Error"),
+    
+      value: figma.string("Value"),
+      defaultValue: figma.string("Value"),
       // No matching props could be found for these Figma properties:
       // "hasLabel": figma.boolean('Has Label'),
       // "hasError": figma.boolean('Has Error'),
@@ -45,12 +54,12 @@ figma.connect(
         label={props.label}
         description={props.description}
         placeholder={props.placeholder}
-        isDisabled={props.isDisabled}
+        state={props.state}
+        hasError={props.hasError}
+        error={props.error}
         value={props.value}
         defaultValue={props.defaultValue}
-        name={props.name}
-        hidden={props.hidden}
       />
-    ),
+    )
   },
 )

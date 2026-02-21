@@ -24,4 +24,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-*storybook.log
+*storybook.log.env.save

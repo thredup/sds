@@ -23,34 +23,15 @@ export const StoryHello: StoryObj<{}> = {
         <FlexItem size="major">
           <Flex direction="column" gap="300">
             <Logo />
-            <TextHeading>Figma Simple Design System</TextHeading>
+            <TextHeading>Design System Sandbox</TextHeading>
             <Text>
-              Simple Design System (SDS) is a base design system that shows how
-              Figma’s Variables, Styles, Components, and Code Connect can be
-              used alongside a React and CSS codebase to form a complete picture
-              of a responsive web design system.
-            </Text>
-
-            <Text>
-              SDS is not just another design system. There are still many gaps
-              between design and development, and SDS provides some best
-              practices for how to bridge them. SDS attempts to remain honest
-              about its implications in code, while also offering
-              customizability in design beyond a simple theming layer that is
-              typical of many code-first component libraries.
-            </Text>
-
-            <Text>
-              Whether you’re looking to use SDS to start a new project, or are
-              looking for examples of some common design systems best practices,
-              you'll find tools inside this codebase and Figma file to steer you
-              in the right direction.
+              This is a sandbox file built on Figma's Simple Design System.
             </Text>
 
             <TextLinkList density="tight">
               <TextListItem>
-                <TextLink href="https://github.com/figma/sds">
-                  GitHub SDS Repo
+                <TextLink href="https://github.com/thredup/sds">
+                  ThredUp SDS Repo
                 </TextLink>
               </TextListItem>
               <TextListItem>
